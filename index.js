@@ -1,12 +1,12 @@
 const express = require('express');
 const cors = require('cors');
 
-const authRoutes = require('../backend/routes/authRoutes');
-const reelRoutes = require('../backend/routes/reelRoutes');
-const newsFeedRoute = require('../backend/routes/newsFeedRoutes');
-const userRoutes = require('../backend/routes/userRoutes');
-const giftRoutes = require('../backend/routes/giftRoutes');
-const memeRoutes = require('../backend/routes/memeRoutes');
+const authRoutes = require('./routes/authRoutes');
+const reelRoutes = require('./routes/reelRoutes');
+const newsFeedRoute = require('./routes/newsFeedRoutes');
+const userRoutes = require('./routes/userRoutes');
+const giftRoutes = require('./routes/giftRoutes');
+const memeRoutes = require('./routes/memeRoutes');
 
 const app = express();
 const PORT = process.env.PORT || 5000;

@@ -1,5 +1,5 @@
 const {db} = require('../firebase/firebaseConfig');
-const UserModel = require('../models/userModel');
+const UserModel = require('../models/UserModel');
 
 exports.createUser = async (req, res) => {
   const { username, email, bio, walletAddress } = req.body;
